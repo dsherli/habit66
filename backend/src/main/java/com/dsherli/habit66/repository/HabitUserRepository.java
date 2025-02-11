@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.Optional;
 
 @Repository
-public interface UserRepository extends JpaRepository<HabitUser, Long> {
+public interface HabitUserRepository extends JpaRepository<HabitUser, Long> {
 
     // Optional is a container object which may or may not contain a non-null value, this one is used to find a user by username
     Optional<HabitUser> findByUsername(String username);
