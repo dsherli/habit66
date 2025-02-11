@@ -2,7 +2,6 @@ package com.dsherli.habit66.model;
 
 import jakarta.persistence.*;
 import lombok.*;
-import com.dsherli.habit66.model.HabitUser;
 
 @Entity
 @Getter @Setter
